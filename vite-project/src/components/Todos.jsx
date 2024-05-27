@@ -23,7 +23,8 @@ function Todos() {
     // </div>
 
     <>
-    <div>Todos</div>
+   
+    <b><h1 style={{paddingTop: 20}}>Redux Todo</h1></b>
     <ul className="list-none">
         {todos.map((todo) => (
           <li
